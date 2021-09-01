@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="We are LushNodes, We host Minecraft Servers and Discord Bot's for cheap price..."
+    />
+    <meta property="og:title" content="LushNodes" />
+
+    <title>LushNodes - Website</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav collapsible">
+        <a href="/"><img class="nav__logo" src="images/logo.png" alt="" /></a>
+        <svg class="icon icon--white nav__button">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+        <ul class="list nav__list collapsible__content">
+          <li class="list__item">
+            <a href="#">Home</a>
+          </li>
+          <li class="list__item">
+            <a href="#">About us</a>
+          </li>
+          <li class="list__item">
+            <a href="Doc/index.html">Help Center</a>
+          </li>
+          <li class="list__item">
+            <a href="https://client.lushnodes.xyz">Client Page</a>
+          </li>
+          <li class="list__item">
+            <a href="https://panel.lushnodes.xyz" target="_blank"
+              >Panel Page</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="block block--dark block--skewed-left hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="hero__heading block__heading">High End Hosting at Low End Pricing.</h1>
+          <p class="hero__text">
+            Our Blazing Fast Machine can run your server in just Seconds!
+          </p>
+          <a
+            class="button button--accent button--stretched"
+            href="https://client.lushnodes.xyz"
+            >Get Started</a
+          >
+        </header>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
+          />
+          <source
+            type="image/png"
+            srcset="images/banner.png 1x, images/banner@2x.png 2x"
+          />
+          <img class="hero__image" src="images/banner.png" alt="" />
+        </picture>
+      </div>
+    </section>
+    <section class="block__plans container" data-aos="fade-up">
+      <div class="grid grid--1x3">
+        <div class="plan non-popular-plan">
+          <div class="card card--secondary">
+            <header class="card__header">
+                <h3 class="plan__name">Air</h3>
+
+                <span class="plan__price">$0</span>
+                <span class="plan__billing-cycle">/forever</span>
+                <span class="badge badge--secondary badge--small">20 STOCK</span>
+                <span class="plan__description">Easy start for us to Try.</span>
+              </header>
+              <div class="card__body">
+                <ul class="list list--tick">
+                  <li class="list__item">1 GB RAM</li>
+                  <li class="list__item">0.60 Cores</li>
+                  <li class="list__item">5 GB Storage</li>
+                  <li class="list__item">1 Allocation Port</li>
+                </ul>
+                <a
+                  class="button button--outline button--block"
+                  href="https://discord.gg/7b47cHYDeh"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="plan plan--popular">
+            <div class="card card--primary">
+              <header class="card__header">
+                <h3 class="plan__name">Dirt Plan</h3>
+
+                <span class="plan__price">$4</span>
+                <span class="plan__billing-cycle">/month</span>
+                <span class="badge badge--secondary badge--small">30 STOCK</span>
+                <span class="plan__description">Easy start of the Server</span>
+              </header>
+              <div class="card__body">
+                <ul class="list list--tick">
+                  <li class="list__item">1 GB Ram</li>
+                  <li class="list__item">1 Cores</li>
+                  <li class="list__item">5 GB Storage</li>
+                  <li class="list__item">2 Allocation Port</li>
+                </ul>
+                <a
+                  class="button button--outline button--block"
+                  href="https://discord.gg/7b47cHYDeh"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-block container">
+      <div class="block block--white">
+        <header class="block__header">
+          <h2 class="block__heading">FEATURES</h2>
+          <p class="block__content">
+            We are trying to hit our goal to make the Minecraft and Discord Bot's Dev Community happy by their Talents and creating it on LushNodes.
+          </p>
+        </header>
+      </div>
+
+      <article class="feature grid grid--1x2">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/minecraft_banner.jpg"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Minecraft Server</h3>
+          <p class="feature__description">
+            With our High Performance Nodes You can Exprience The Fast and Realable Server That You can Imagine.
+          </p>
+          <a class="link-arrow" href="https://client.lushnodes.xyz"
+            >Learn More</a
+          >
+        </div>
+        <img class="feature__image" src="images/minecraft.jpg" alt="" />
+      </article>
+
+      <article class="feature grid grid--1x2">
+        <div class="feature__content" data-aos="fade-left">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use href="images/sprite.svg#easy"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Discord Bot Hosting</h3>
+          <p class="feature__description">
+            In the Discord Bot You Can Pick A Egg / Pterodactyl Egg For Your Discord Bot We Support: NodeJS 12 - 14 Ver, PHP & JavaScript
+          </p>
+          <a class="link-arrow" href="https://client.lushnodes.xyz"
+            >Learn More</a
+          >
+        </div>
+        <img class="feature__image" src="images/fast.jpg" alt="" />
+      </article>
+
+      <article class="feature grid grid--1x2">
+        <div class="feature__content" data-aos="fade-right">
+          <span class="icon-container">
+            <svg class="icon icon--primary">
+              <use xlink:href="/images/sprite.svg#computer"></use>
+            </svg>
+          </span>
+          <h3 class="feature__heading">Powerful Features</h3>
+          <p class="feature__description">
+            All of our services are with DDoS Protection, And keeping your Server online and 24/7 always.
+          </p>
+          <a class="link-arrow" href="https://client.lushnodes.xyz"
+            >Learn More</a
+          >
+        </div>
+        <img class="feature__image" src="images/path.png" alt="" />
+      </article>
+    </section>
+
+    <section class="showcase">
+      <div class="block block--dark block--skewed-right">
+        <header class="block__header">
+          <h2 class="block__heading">User-friendly Control Panel</h2>
+          <div class="block__content grid grid--1x2">
+            <img
+              class="showcase__image"
+              src="images/pterodactyl.png"
+              alt=""
+              data-aos="fade-right"
+            />
+            <div class="showcase-description" data-aos="fade-left">
+              <div class="media">
+                <div class="media__icon">
+                  <svg class="icon">
+                    <use href="images/sprite.svg#computer"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title">Easy Start & Managed Updates</h3>
+                  <p class="media__text">
+                    Pterodactyl is an open-source game server management panel built with PHP 7, React, and Go. Designed with security in mind, Pterodactyl runs all game servers in isolated Docker containers while exposing a beautiful and intuitive UI to end users.
+                  </p>
+                </div>
+              </div>
+              <div class="media">
+                <div class="media__icon">
+                  <svg class="icon">
+                    <use href="images/sprite.svg#clock"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title">The Best Control Panel In The Industry</h3>
+                  <p class="media__text">
+                  Pterodactyl Panel, Provides you with the Fastest and Lightest Server's on your Server, With Docker and Pterodactyl we can provide you with different kinds of Modes of Server like: Discord Bot's, Minecraft Servers and Many More!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+    </section>
+
+        <section class="section data-center-area ptb_100">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-12 col-md-10 col-lg-7">
+                      <!-- Section Heading -->
+                      <div class="section-heading text-center">
+                          <h2 class="text-capitalize">Our Nodes Location</h2>
+                          <p class="d-none d-sm-block mt-4">With our High Tech Machines, Your server will be in the best Server possible</p>                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <!-- Map Container -->
+                  <div class="map-container">
+                      <img src="images/world-map.png">
+                      <div class="point germany" data-tippy-content="Germany"></div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+    <div class="callout container">
+      <div class="grid grid--1x2">
+        <div class="callout__content">
+          <h2 class="callout__heading">Ready To Get Started?</h2>
+          <p class="callou__description">
+          Get Started with LushNodes 
+          </p>
+        </div>
+        <a
+          class="button button--secondary button--stretched"
+          href="https://client.lushnodes.xyz"
+          >Get Started</a
+        >
+      </div>
+    </div>
+
+    <footer class="website-footer">
+      <div class="container grid footer__sections">
+        <div class="footer__item">
+          <div class="footer__content">
+            <div class="collapsible">
+              <div class="collapsible__header">
+                <h2 class="collapsible__heading">USEFULL LINKS</h2>
+                <svg class="icon collapsible__icon">
+                  <use href="images/sprite.svg#chevron"></use>
+                </svg>
+              </div>
+              <div class="collapsible__content">
+                <ul class="footer__links">
+                  <li>
+                    <a
+                      href="#"
+                      class="footer__link"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="footer__link"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://nitropoge.gitbook.io/lushnodes-documents/policies-of-lushnodes/terms-of-service"
+                      class="footer__link"
+                      >Terms Of Service</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://nitropoge.gitbook.io/lushnodes-documents/policies-of-lushnodes/privacy-policy"
+                      class="footer__link"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__content">
+            <div class="collapsible">
+              <div class="collapsible__header">
+                <h2 class="collapsible__heading">OUR SERVICES</h2>
+                <svg class="icon collapsible__icon">
+                  <use href="images/sprite.svg#chevron"></use>
+                </svg>
+              </div>
+              <div class="collapsible__content">
+                <ul class="footer__links">
+                  <li>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="footer__link"
+                      >Minecraft Server</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="footer__link"
+                      >Discord Bot</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__brand">
+          <img src="images/logo.png" alt="" />
+          <p>© Copyright LushNodes. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
