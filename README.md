@@ -28,5 +28,7 @@ This project is on Beta v0.0.1
 
 ## Reporting a Vulnerability
 
-Any Bugs or Report you see on our Website, Please go to our Discord Server for issues on our Website 
+Any Bugs or Report you see on our Website, Please go to our Discord Server for issues on our Website
+<figure class="dc-server">
 <iframe src="https://discord.com/widget?id=877966908442411088&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<figure class="dc-server">
